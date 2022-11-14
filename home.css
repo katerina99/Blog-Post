@@ -1,0 +1,224 @@
+@import "navbar.css";
+
+* {
+  margin: 0;
+  padding-top: 0;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.banner-area {
+  width: 100%;
+  height: 650px;
+  top: 100px;
+  position: fixed;
+  background-image: url(BackImg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.banner-area h2 {
+  padding-top: 8%;
+  font-size: 70px;
+  font-family: poppins;
+  text-transform: uppercase;
+  color: #fff;
+}
+.content-area {
+  width: 100%;
+  position: relative;
+  top: 450px;
+  background: #ddd;
+  height: 100%;
+}
+.content-area h2 {
+  letter-spacing: 2px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
+}
+p {
+  margin: 10px 0;
+  background-position: right;
+  margin-left: 20em;
+  margin-right: 20em;
+}
+img {
+  float: left;
+  margin-left: 317px;
+  margin-top: 9px;
+  margin-right: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+.ref {
+
+}
+
+.p6 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.p7 {
+  text-align: center;
+  padding-left: 0;
+}
+p {
+  line-height: 30px;
+  text-align: left;
+}
+
+.comment {
+  color: black;
+  text-decoration: none;
+}
+.comment:hover {
+  text-decoration: underline;
+}
+    
+@media screen and (max-width:600px) {
+  .banner-area {
+    z-index: -1;
+  }
+  .banner-area {
+    height: 200px;
+  }
+  .content-area {
+    top: 300px;
+    height: 100%;
+    
+  }
+  .content-area h2 {
+    font-size: 23px;
+  }
+  p {
+    margin: 0;
+    
+  }
+  img {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+  }
+  .img1,.img2{
+    margin-bottom: 20px;
+    width:100%
+  }
+  .p1,.p2,.p3,.p4,.p5{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .p6 {
+    
+    text-align: center;
+    font-size: 16.6px;
+    font-weight: bold;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .p7 {
+    text-align: left;
+    font-size: 9.5px;
+    font-weight: bold;
+    padding-bottom: 17px;
+  }  
+  .comment {
+    color: black;
+    text-decoration: none;
+  }
+  .comment:hover {
+    text-decoration: underline;
+  }
+  .ref {
+    padding-left: 10px;
+  }
+  
+  
+}
+/* ipad air */
+@media screen and (max-width:900px) and (min-width:600px) {
+  p {
+    margin: 0;
+    background-position: right;
+   
+   
+  }
+  .ref {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  img {
+    margin: 0;
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .p1,.p2,.p3,.p4,.p5{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 25px;
+  }
+  .p6 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .content-area {
+    height: 100%;
+  }
+  .p7 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 17px;
+  }  
+}
+
+@media screen and (max-width:1370px) and (min-width:900px) {
+  .p1,.p2,.p3,.p4,.p5{
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    text-align: left;
+  }
+  img{
+    padding-left: 15px;
+    margin: 0;
+    width: 50%;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  .content-area {
+    height: 100%;
+  }
+  .p6 {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+ 
+  .ref {
+    font-size: 25px;
+    padding-left: 10px;
+    margin: 0;
+  }
+
+}
